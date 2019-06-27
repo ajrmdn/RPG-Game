@@ -18,33 +18,39 @@ export class Character {
   checkHealth(change) {
     if (this.currentHealth + change >= this.maxHealth) {
       this.currentHealth = this.maxHealth;
+      return this.currentHealth;
     } else if (this.currentHealth + change <= 0) {
       this.currentHealth = 0;
       return "You're dead son";
     } else {
       this.currentHealth += change;
+      return this.currentHealth;
     }
-
-    return this.currentHealth;
   }
 
   checkMana(change) {
     if (this.currentMana + change >= this.maxMana) {
       this.currentMana = this.maxMana;
+      return this.currentMana;
     } else if (this.currentMana + change <= 0) {
       this.currentMana = 0;
       return "You're out of mana!";
     } else {
       this.currentMana += change;
+      return this.currentMana;
     }
-
-    return this.currentMana;
   }
 }
 
-export class Weapon {
-  constructor(weaponName, weaponDamage) {
-    this.name = weaponName;
-    this.damage = weaponDamage;
-  }
-}
+// export class Weapons {
+//   constructor(weapon) {
+//
+//   }
+// }
+//
+// export class Weapon {
+//   constructor(weaponName, weaponDamage) {
+//     this.name = weaponName;
+//     this.damage = weaponDamage;
+//   }
+// }
