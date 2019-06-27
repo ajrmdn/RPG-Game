@@ -27,9 +27,11 @@ Step 1: Clone this repository to your desktop
 
 Step 2: Make sure node.js and npm are installed
 
-Step 3: In terminal, within the project directory, run npm installed
+Step 3: In terminal, within the project directory, type npm install
 
-Step4: In terminal, within the project directory, run npm run build
+Step 4: In terminal, within the project directory, type npm run build
+
+Step 5: In terminal, within the project directory, type npm run start
 
 ## Technologies Used
 
@@ -39,16 +41,17 @@ _CSS_
 
 _JavaScript_
 
+_Webpack_
+
 _Jasmine_
 
 _Karma_
-
 
 ## Licensing
 
 MIT License
 
-Copyright (c) 2019 Alex Siegberg
+Copyright (c) 2019 Alex Siegberg & Abdellah Ramadan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
